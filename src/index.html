@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raiku-dev</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="ventana" role="dialog" aria-label="Raikui.dev window">
+        <div class="raya">
+            <span class="raya__titulo">Welcome to Personal site</span>
+            <span class="raya__controles">
+                <button type="button" class="control" aria-label="Minimize" title="Minimize">_</button>
+                <button type="button" class="control" aria-label="Maximize" title="Maximize">&#9633;</button>
+                <button type="button" class="control control--close" aria-label="Close" title="Close">&#10005;</button>
+            </span>
+        </div>
+        <nav class="menu" aria-label="Main menu">
+            <button type="button">File</button>
+            <button type="button">Edit</button>
+            <button type="button">View</button>
+            <button type="button">Help</button>
+        </nav>
+        <main class="contenido">
+            <header class="hero">
+                <h1 class="hero__titulo">Jean Carlos Contreras</h1>
+                <p class="hero__rol">Software Developer</p>
+                <p class="hero__bio">
+                    A 25-year-old guy who likes technology and development & computer engineering student
+                </p>
+            </header>
+
+            <hr class="separador">
+
+            <section class="bloque" aria-labelledby="skills-title">
+                <h2 id="skills-title" class="bloque__titulo">Skills</h2>
+                <ul class="lista">
+                    <li>TypeScript</li>
+                    <li>HTML & CSS</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                </ul>
+                <h2 id="skills-title" class="bloque__titulo">Frameworks</h2>
+                <ul class="lista">
+                    <li>Nest.js</li>
+                </ul>
+                <h2 id="skills-title" class="bloque__titulo">DataBase</h2>
+                <ul class="lista">
+                    <li>Postgresql</li>
+                    <li>MySql</li>
+                </ul>
+                <h2 id="skills-title" class="bloque__titulo">Tools</h2>
+                <ul class="lista">
+                    <li>Docker</li>
+                    <li>Git</li>
+                    <li>Linux</li>
+                </ul>
+
+            </section>
+
+            <section class="bloque" aria-labelledby="projects-title">
+                <h2 id="projects-title" class="bloque__titulo">Projects</h2>
+                <ul class="lista">
+                    <li>
+                        <span class="proyecto__nombre">Space-Invader</span> —
+                        <span class="proyecto__desc">A Java version of the popular game “Space Invaders”</span>
+                        <a href="https://github.com/Scripty77/space-invader">Github</a>
+                    </li>
+                    <li>
+                        <span class="proyecto__nombre">Stela</span> —
+                        <span class="proyecto__desc">Concept of a Decentralized Cryptocurrency Exchange Platform</span>
+                        <a href="https://github.com/Scripty77/Stela">Github</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="bloque" aria-labelledby="contact-title">
+                <h2 id="contact-title" class="bloque__titulo">Contact</h2>
+                <ul class="contacto">
+                    <li><a href="https://github.com/Raiku-bit" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/jean-carlos-contreras-485485279/?isSelfProfile=true" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                </ul>
+            </section>
+        </main>
+        <img class="clippy" src="./gif/clippy.gif" alt="" width="110" height="110">
+        <div class="status" role="status" aria-live="polite">
+            <span class="status__panel"></span>
+            <span class="status__panel status__panel--right">R</span>
+        </div>
+    </div>
+</body>
+</html>
